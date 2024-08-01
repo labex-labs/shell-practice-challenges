@@ -33,7 +33,7 @@ This course contains lots of challenges for Shell, each challenge is a small She
 |      20 | 🎯 Print Equilateral Triangle Pattern             | ★★☆          | <a target='_blank' href='https://labex.io/labs/18303'>Start Challenge</a>  |
 |      21 | 🎯 Pausing Command Syntax                         | ★☆☆          | <a target='_blank' href='https://labex.io/labs/211475'>Start Challenge</a> |
 |      22 | 🎯 Bash Script Lucky Number Checker               | ★☆☆          | <a target='_blank' href='https://labex.io/labs/211457'>Start Challenge</a> |
-|      23 | 🎯 Extracting Data with Regular Expressions       | ★☆☆          | <a target='_blank' href='https://labex.io/labs/17991'>Start Challenge</a>  |
+|      23 | 🎯 Extracting Mails and Numbers                   | ★☆☆          | <a target='_blank' href='https://labex.io/labs/17991'>Start Challenge</a>  |
 |      24 | 🎯 Right Angle Triangle Pattern                   | ★★☆          | <a target='_blank' href='https://labex.io/labs/18289'>Start Challenge</a>  |
 |      25 | 🎯 Naming Command Line Arguments                  | ★☆☆          | <a target='_blank' href='https://labex.io/labs/211460'>Start Challenge</a> |
 |      26 | 🎯 Create Directory with Bash Script              | ★☆☆          | <a target='_blank' href='https://labex.io/labs/211467'>Start Challenge</a> |
@@ -66,7 +66,7 @@ This course contains lots of challenges for Shell, each challenge is a small She
 |      53 | 🎯 Bash Hello World Program                       | ★☆☆          | <a target='_blank' href='https://labex.io/labs/211447'>Start Challenge</a> |
 |      54 | 🎯 Downloading Files with Curl and Wget           | ★☆☆          | <a target='_blank' href='https://labex.io/labs/28'>Start Challenge</a>     |
 |      55 | 🎯 Delete Empty Lines                             | ★★☆          | <a target='_blank' href='https://labex.io/labs/18868'>Start Challenge</a>  |
-|      56 | 🎯 Initialize Git Project (Challenge)             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/7782'>Start Challenge</a>   |
+|      56 | 🎯 Initialize Git Project (Challenge)             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/385166'>Start Challenge</a> |
 |      57 | 🎯 Random Password Generator Using Shell Commands | ★★☆          | <a target='_blank' href='https://labex.io/labs/18299'>Start Challenge</a>  |
 |      58 | 🎯 System Information Displaying Script           | ★★☆          | <a target='_blank' href='https://labex.io/labs/18281'>Start Challenge</a>  |
 |      59 | 🎯 Backup Logs In Linux                           | ★☆☆          | <a target='_blank' href='https://labex.io/labs/1654'>Start Challenge</a>   |
@@ -76,7 +76,7 @@ This course contains lots of challenges for Shell, each challenge is a small She
 |      63 | 🎯 Display User and Group Information             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/8718'>Start Challenge</a>   |
 |      64 | 🎯 Group of Linux                                 | ★☆☆          | <a target='_blank' href='https://labex.io/labs/8266'>Start Challenge</a>   |
 |      65 | 🎯 Analyze Historical Commands                    | ★☆☆          | <a target='_blank' href='https://labex.io/labs/17988'>Start Challenge</a>  |
-|      66 | 🎯 Change the Ownership                           | ★☆☆          | <a target='_blank' href='https://labex.io/labs/270254'>Start Challenge</a> |
+|      66 | 🎯 Change File Ownership                          | ★☆☆          | <a target='_blank' href='https://labex.io/labs/270254'>Start Challenge</a> |
 |      67 | 🎯 Locate Files On Linux System                   | ★☆☆          | <a target='_blank' href='https://labex.io/labs/1505'>Start Challenge</a>   |
 |      68 | 🎯 Terminate Processes by Name and ID             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/31'>Start Challenge</a>     |
 |      69 | 🎯 Add New User and Group                         | ★☆☆          | <a target='_blank' href='https://labex.io/labs/17987'>Start Challenge</a>  |
