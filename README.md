@@ -1,5 +1,9 @@
 # Shell Practice Challenges
 
+[![Black Friday](https://file.labex.io/images/labex-bf24.png)](https://labex.io/pricing)
+
+> [Black Friday 2024 & Cyber Monday 2024 Deals](https://labex.io/pricing) | Best Price of the Year
+
 [![Shell Practice Challenges](https://cover-creator.appbot.io/shell-practice-challenges.png)](https://labex.io/courses/shell-practice-challenges)
 
 [![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/courses/shell-practice-challenges)
@@ -91,9 +95,8 @@ Learn more about [LabEx VM](https://support.labex.io/using-labex/virtual-machine
 |      62 | 🎯 Group of Linux                                 | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-group-of-linux-8266'>Start Challenge</a>                                  |
 |      63 | 🎯 Analyze Historical Commands                    | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-analyze-historical-commands-17988'>Start Challenge</a>                    |
 |      64 | 🎯 Change File Ownership                          | ★☆☆          | <a target='_blank' href='https://labex.io/labs/shell-change-file-ownership-270254'>Start Challenge</a>                         |
-|      65 | 🎯 Locate Files On Linux System                   | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-locate-files-on-linux-system-1505'>Start Challenge</a>                    |
-|      66 | 🎯 Terminate Processes by Name and ID             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-terminate-processes-by-name-and-id-31'>Start Challenge</a>                |
-|      67 | 🎯 Add New User and Group                         | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-add-new-user-and-group-17987'>Start Challenge</a>                         |
+|      65 | 🎯 Terminate Processes by Name and ID             | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-terminate-processes-by-name-and-id-31'>Start Challenge</a>                |
+|      66 | 🎯 Add New User and Group                         | ★☆☆          | <a target='_blank' href='https://labex.io/labs/linux-add-new-user-and-group-17987'>Start Challenge</a>                         |
 
 ## More
 
