@@ -31,36 +31,36 @@ LabEx 는 코딩과 기술에 전념하는 대화형 실습 학습 플랫폼입�
 
 |   인덱스 | 이름                                  | 난이도   | 연습                                                                                                             |
 |----------|---------------------------------------|----------|------------------------------------------------------------------------------------------------------------------|
-|       01 | 🎯 Bash Hello World Program           | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/linux-bash-hello-world-program-387351'>도전 시작</a>           |
-|       02 | 🎯 Bash Scripting Comments Usage      | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-scripting-comments-usage-387353'>도전 시작</a>      |
-|       03 | 🎯 Rectangle Area Calculator Script   | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-rectangle-area-calculator-script-387354'>도전 시작</a>   |
-|       04 | 🎯 Using While Loop in Bash           | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-using-while-loop-in-bash-387355'>도전 시작</a>           |
-|       05 | 🎯 Bash Script Using For Loop         | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-using-for-loop-387356'>도전 시작</a>         |
-|       06 | 🎯 Capture User Input Script          | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-capture-user-input-script-387357'>도전 시작</a>          |
-|       07 | 🎯 Number Digit Checker               | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-number-digit-checker-387358'>도전 시작</a>               |
-|       08 | 🎯 Username and Password Validation   | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-username-and-password-validation-387359'>도전 시작</a>   |
-|       09 | 🎯 Bash Script with OR Logic          | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-with-or-logic-387360'>도전 시작</a>          |
-|       10 | 🎯 Bash Script Lucky Number Checker   | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-lucky-number-checker-387361'>도전 시작</a>   |
-|       11 | 🎯 Bash Script Command Line Arguments | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-command-line-arguments-387363'>도전 시작</a> |
-|       12 | 🎯 Naming Command Line Arguments      | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-naming-command-line-arguments-387364'>도전 시작</a>      |
-|       13 | 🎯 Substring Extraction in Bash       | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-substring-extraction-in-bash-387366'>도전 시작</a>       |
-|       14 | 🎯 Add Two Numbers                    | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-add-two-numbers-387367'>도전 시작</a>                    |
-|       15 | 🎯 Creating Bash Function             | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-creating-bash-function-387368'>도전 시작</a>             |
-|       16 | 🎯 Calculate Rectangle Area Function  | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-calculate-rectangle-area-function-387369'>도전 시작</a>  |
-|       17 | 🎯 Passing String Value in Bash       | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-passing-string-value-in-bash-387370'>도전 시작</a>       |
-|       18 | 🎯 Create Directory with Bash Script  | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-create-directory-with-bash-script-387371'>도전 시작</a>  |
-|       19 | 🎯 Check Directory Existence Script   | ★★☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-check-directory-existence-script-387372'>도전 시작</a>   |
-|       20 | 🎯 Read File Line by Line             | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-read-file-line-by-line-387373'>도전 시작</a>             |
-|       21 | 🎯 Deleting Files with Bash           | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-deleting-files-with-bash-387374'>도전 시작</a>           |
-|       22 | 🎯 Append Content to File             | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-append-content-to-file-387375'>도전 시작</a>             |
-|       23 | 🎯 Check File Existence               | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-check-file-existence-387376'>도전 시작</a>               |
-|       24 | 🎯 Parse Current Date and Time        | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-parse-current-date-and-time-387377'>도전 시작</a>        |
-|       25 | 🎯 Using Wait Command in Bash         | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-using-wait-command-in-bash-387378'>도전 시작</a>         |
-|       26 | 🎯 Pausing Command Syntax             | ★☆☆      | <a target='_blank' href='https://labex.io/ko/labs/shell-pausing-command-syntax-387379'>도전 시작</a>             |
+|       01 | 🎯 Bash Hello World Program           | 초급     | <a target='_blank' href='https://labex.io/ko/labs/linux-bash-hello-world-program-387351'>도전 시작</a>           |
+|       02 | 🎯 Bash Scripting Comments Usage      | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-scripting-comments-usage-387353'>도전 시작</a>      |
+|       03 | 🎯 Rectangle Area Calculator Script   | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-rectangle-area-calculator-script-387354'>도전 시작</a>   |
+|       04 | 🎯 Using While Loop in Bash           | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-using-while-loop-in-bash-387355'>도전 시작</a>           |
+|       05 | 🎯 Bash Script Using For Loop         | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-using-for-loop-387356'>도전 시작</a>         |
+|       06 | 🎯 Capture User Input Script          | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-capture-user-input-script-387357'>도전 시작</a>          |
+|       07 | 🎯 Number Digit Checker               | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-number-digit-checker-387358'>도전 시작</a>               |
+|       08 | 🎯 Username and Password Validation   | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-username-and-password-validation-387359'>도전 시작</a>   |
+|       09 | 🎯 Bash Script with OR Logic          | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-with-or-logic-387360'>도전 시작</a>          |
+|       10 | 🎯 Bash Script Lucky Number Checker   | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-lucky-number-checker-387361'>도전 시작</a>   |
+|       11 | 🎯 Bash Script Command Line Arguments | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-bash-script-command-line-arguments-387363'>도전 시작</a> |
+|       12 | 🎯 Naming Command Line Arguments      | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-naming-command-line-arguments-387364'>도전 시작</a>      |
+|       13 | 🎯 Substring Extraction in Bash       | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-substring-extraction-in-bash-387366'>도전 시작</a>       |
+|       14 | 🎯 Add Two Numbers                    | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-add-two-numbers-387367'>도전 시작</a>                    |
+|       15 | 🎯 Creating Bash Function             | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-creating-bash-function-387368'>도전 시작</a>             |
+|       16 | 🎯 Calculate Rectangle Area Function  | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-calculate-rectangle-area-function-387369'>도전 시작</a>  |
+|       17 | 🎯 Passing String Value in Bash       | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-passing-string-value-in-bash-387370'>도전 시작</a>       |
+|       18 | 🎯 Create Directory with Bash Script  | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-create-directory-with-bash-script-387371'>도전 시작</a>  |
+|       19 | 🎯 Check Directory Existence Script   | 중급     | <a target='_blank' href='https://labex.io/ko/labs/shell-check-directory-existence-script-387372'>도전 시작</a>   |
+|       20 | 🎯 Read File Line by Line             | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-read-file-line-by-line-387373'>도전 시작</a>             |
+|       21 | 🎯 Deleting Files with Bash           | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-deleting-files-with-bash-387374'>도전 시작</a>           |
+|       22 | 🎯 Append Content to File             | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-append-content-to-file-387375'>도전 시작</a>             |
+|       23 | 🎯 Check File Existence               | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-check-file-existence-387376'>도전 시작</a>               |
+|       24 | 🎯 Parse Current Date and Time        | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-parse-current-date-and-time-387377'>도전 시작</a>        |
+|       25 | 🎯 Using Wait Command in Bash         | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-using-wait-command-in-bash-387378'>도전 시작</a>         |
+|       26 | 🎯 Pausing Command Syntax             | 초급     | <a target='_blank' href='https://labex.io/ko/labs/shell-pausing-command-syntax-387379'>도전 시작</a>             |
 
 ## 더 보기
 
-- 🔗 [Shell Programming Courses](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Shell Programming Projects](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Shell Free Tutorials](https://github.com/labex-labs/shell-free-tutorials)
+- 🔗 [Shell 프로그래밍 코스](https://github.com/labex-labs/awesome-programming-courses)
+- 🔗 [Shell 프로그래밍 프로젝트](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Shell 무료 튜토리얼](https://github.com/labex-labs/shell-free-tutorials)
 
