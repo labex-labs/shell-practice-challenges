@@ -17,32 +17,32 @@
 
 |   Индекс | Название                                             | Сложность   | Практика                                                                                                                |
 |----------|------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------|
-|       01 | 🎯 🟢 Программа Bash Hello World                     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/linux-bash-hello-world-program-387351'>Начать Испытание</a>           |
-|       02 | 🎯 🟢 Использование комментариев в сценариях на Bash | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-scripting-comments-usage-387353'>Начать Испытание</a>      |
-|       03 | 🎯 🟢 Скрипт для вычисления площади прямоугольника   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-rectangle-area-calculator-script-387354'>Начать Испытание</a>   |
-|       04 | 🎯 🟢 Использование цикла while в Bash               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-using-while-loop-in-bash-387355'>Начать Испытание</a>           |
-|       05 | 🎯 🟢 Bash-скрипт с использованием цикла for         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-using-for-loop-387356'>Начать Испытание</a>         |
-|       06 | 🎯 🟢 Скрипт для захвата ввода пользователя          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-capture-user-input-script-387357'>Начать Испытание</a>          |
-|       07 | 🎯 🟢 Проверка количества цифр в числе               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-number-digit-checker-387358'>Начать Испытание</a>               |
-|       08 | 🎯 🟢 Валидация имени пользователя и пароля          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-username-and-password-validation-387359'>Начать Испытание</a>   |
-|       09 | 🎯 🟢 Bash-скрипт с логическим ИЛИ                   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-with-or-logic-387360'>Начать Испытание</a>          |
-|       10 | 🎯 🟢 Bash-скрипт для проверки счастливого числа     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-lucky-number-checker-387361'>Начать Испытание</a>   |
-|       11 | 🎯 🟢 Аргументы командной строки в сценариях Bash    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-command-line-arguments-387363'>Начать Испытание</a> |
-|       12 | 🎯 🟢 Именование аргументов командной строки         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-naming-command-line-arguments-387364'>Начать Испытание</a>      |
-|       13 | 🎯 🟢 Извлечение подстроки в Bash                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-substring-extraction-in-bash-387366'>Начать Испытание</a>       |
-|       14 | 🎯 🟢 Сложение двух чисел                            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-add-two-numbers-387367'>Начать Испытание</a>                    |
-|       15 | 🎯 🟢 Создание функции в Bash                        | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-creating-bash-function-387368'>Начать Испытание</a>             |
-|       16 | 🎯 🟢 Функция для вычисления площади прямоугольника  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-calculate-rectangle-area-function-387369'>Начать Испытание</a>  |
-|       17 | 🎯 🟢 Передача строкового значения в Bash            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-passing-string-value-in-bash-387370'>Начать Испытание</a>       |
-|       18 | 🎯 🟢 Создание директории с помощью скрипта на Bash  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-create-directory-with-bash-script-387371'>Начать Испытание</a>  |
-|       19 | 🎯 🟢 Скрипт для проверки существования директории   | Средний     | <a target='_blank' href='https://labex.io/ru/labs/shell-check-directory-existence-script-387372'>Начать Испытание</a>   |
-|       20 | 🎯 🟢 Чтение файла по строкам                        | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-read-file-line-by-line-387373'>Начать Испытание</a>             |
-|       21 | 🎯 🟢 Удаление файлов с использованием Bash          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-deleting-files-with-bash-387374'>Начать Испытание</a>           |
-|       22 | 🎯 🟢 Добавление содержимого в файл                  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-append-content-to-file-387375'>Начать Испытание</a>             |
-|       23 | 🎯 🟢 Проверка существования файла                   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-check-file-existence-387376'>Начать Испытание</a>               |
-|       24 | 🎯 🟢 Разбор текущей даты и времени                  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-parse-current-date-and-time-387377'>Начать Испытание</a>        |
-|       25 | 🎯 🟢 Использование команды wait в Bash              | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-using-wait-command-in-bash-387378'>Начать Испытание</a>         |
-|       26 | 🎯 🟢 Синтаксис команды для паузы                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-pausing-command-syntax-387379'>Начать Испытание</a>             |
+|       01 | 🎯 🆓 Программа Bash Hello World                     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/linux-bash-hello-world-program-387351'>Начать Испытание</a>           |
+|       02 | 🎯 🆓 Использование комментариев в сценариях на Bash | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-scripting-comments-usage-387353'>Начать Испытание</a>      |
+|       03 | 🎯 🆓 Скрипт для вычисления площади прямоугольника   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-rectangle-area-calculator-script-387354'>Начать Испытание</a>   |
+|       04 | 🎯 🆓 Использование цикла while в Bash               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-using-while-loop-in-bash-387355'>Начать Испытание</a>           |
+|       05 | 🎯 🆓 Bash-скрипт с использованием цикла for         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-using-for-loop-387356'>Начать Испытание</a>         |
+|       06 | 🎯 🆓 Скрипт для захвата ввода пользователя          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-capture-user-input-script-387357'>Начать Испытание</a>          |
+|       07 | 🎯 🆓 Проверка количества цифр в числе               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-number-digit-checker-387358'>Начать Испытание</a>               |
+|       08 | 🎯 🆓 Валидация имени пользователя и пароля          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-username-and-password-validation-387359'>Начать Испытание</a>   |
+|       09 | 🎯 🆓 Bash-скрипт с логическим ИЛИ                   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-with-or-logic-387360'>Начать Испытание</a>          |
+|       10 | 🎯 🆓 Bash-скрипт для проверки счастливого числа     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-lucky-number-checker-387361'>Начать Испытание</a>   |
+|       11 | 🎯 🆓 Аргументы командной строки в сценариях Bash    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-bash-script-command-line-arguments-387363'>Начать Испытание</a> |
+|       12 | 🎯 🆓 Именование аргументов командной строки         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-naming-command-line-arguments-387364'>Начать Испытание</a>      |
+|       13 | 🎯 🆓 Извлечение подстроки в Bash                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-substring-extraction-in-bash-387366'>Начать Испытание</a>       |
+|       14 | 🎯 🆓 Сложение двух чисел                            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-add-two-numbers-387367'>Начать Испытание</a>                    |
+|       15 | 🎯 🆓 Создание функции в Bash                        | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-creating-bash-function-387368'>Начать Испытание</a>             |
+|       16 | 🎯 🆓 Функция для вычисления площади прямоугольника  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-calculate-rectangle-area-function-387369'>Начать Испытание</a>  |
+|       17 | 🎯 🆓 Передача строкового значения в Bash            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-passing-string-value-in-bash-387370'>Начать Испытание</a>       |
+|       18 | 🎯 🆓 Создание директории с помощью скрипта на Bash  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-create-directory-with-bash-script-387371'>Начать Испытание</a>  |
+|       19 | 🎯 🆓 Скрипт для проверки существования директории   | Средний     | <a target='_blank' href='https://labex.io/ru/labs/shell-check-directory-existence-script-387372'>Начать Испытание</a>   |
+|       20 | 🎯 🆓 Чтение файла по строкам                        | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-read-file-line-by-line-387373'>Начать Испытание</a>             |
+|       21 | 🎯 🆓 Удаление файлов с использованием Bash          | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-deleting-files-with-bash-387374'>Начать Испытание</a>           |
+|       22 | 🎯 🆓 Добавление содержимого в файл                  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-append-content-to-file-387375'>Начать Испытание</a>             |
+|       23 | 🎯 🆓 Проверка существования файла                   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-check-file-existence-387376'>Начать Испытание</a>               |
+|       24 | 🎯 🆓 Разбор текущей даты и времени                  | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-parse-current-date-and-time-387377'>Начать Испытание</a>        |
+|       25 | 🎯 🆓 Использование команды wait в Bash              | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-using-wait-command-in-bash-387378'>Начать Испытание</a>         |
+|       26 | 🎯 🆓 Синтаксис команды для паузы                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/shell-pausing-command-syntax-387379'>Начать Испытание</a>             |
 
 ## Среда
 
