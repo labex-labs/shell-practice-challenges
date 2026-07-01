@@ -1,56 +1,114 @@
-# Shell 실습 챌린지
+# Shell 실습 도전
 
 ## 언어
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Shell 실습 챌린지](https://cover-creator.labex.io/shell-practice-challenges.png?lang=ko)](https://labex.io/ko/courses/shell-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/xd9XxfpEzs7d.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ko/courses/shell-practice-challenges)
+이 종합 학습 경로를 통해 시스템 관리 및 자동화를 위한 셸 스크립팅을 배우세요. 초보자를 위해 설계된 이 로드맵은 명령줄 인터페이스와 셸 프로그래밍을 마스터하는 체계적인 방법을 제공합니다. 포함된 셸 강좌는 대화형 명령줄 환경에서 실습 위주의 비디오 없는 지침과 실제 연습을 제공하여 Unix/Linux 셸 및 스크립팅 언어에 대한 실제 기술을 개발하는 데 도움을 줍니다.
 
-본 과정은 Shell 에 대한 다양한 챌린지를 포함하고 있으며, 각 챌린지는 상세한 지침과 솔루션을 갖춘 작은 Shell 프로젝트입니다. 이러한 챌린지를 해결함으로써 Shell 기술을 연습하고, 문제 해결 능력을 향상시키며, 깔끔하고 효율적인 코드를 작성하는 방법을 배울 수 있습니다.
+LabEx 의 89개 이하 Shell 집중 도전을 살펴보세요. 각 도전은 대화형 환경에서 열려 특정 기술을 연습할 수 있습니다.
 
-![Shell](https://img.shields.io/badge/Shell-whitesmoke?style=for-the-badge&logo=shell)
+|   인덱스 | 이름                                                                                                            | 스킬             | 난이도   | 연습                                                                                           |
+|-------|---------------------------------------------------------------------------------------------------------------|----------------|-------|----------------------------------------------------------------------------------------------|
+|    01 | [사막 레이싱 피트 스톱 타이밍](https://labex.io/ko/labs/linux-desert-racing-pit-stop-timing-271382)                       | 스크립트 실행        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-desert-racing-pit-stop-timing-271382)                 |
+|    02 | [파일 소유권 변경하기](https://labex.io/ko/labs/shell-change-file-ownership-270254)                                    | 높은 권한          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-change-file-ownership-270254)                         |
+|    03 | [지하 산술 어드벤처](https://labex.io/ko/labs/linux-underground-arithmetic-adventure-271228)                          | 산술 확장          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-underground-arithmetic-adventure-271228)              |
+|    04 | [리눅스 텍스트 열 정렬 기술 대결](https://labex.io/ko/labs/linux-linux-text-columnizing-tech-showdown-271248)              | 텍스트 필드 추출      | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-text-columnizing-tech-showdown-271248)          |
+|    05 | [해양 변수 발견](https://labex.io/ko/labs/linux-oceanic-variable-discovery-271264)                                  | 변수 할당          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-oceanic-variable-discovery-271264)                    |
+|    06 | [잠수정 리눅스 환경 관리](https://labex.io/ko/labs/linux-submersible-linux-environment-management-271274)               | 환경 변수          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-submersible-linux-environment-management-271274)      |
+|    07 | [가상 현실 셸 탐험](https://labex.io/ko/labs/linux-virtual-reality-shell-exploration-271276)                         | 종료 상태          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-virtual-reality-shell-exploration-271276)             |
+|    08 | [크로노워리어 변수 모험](https://labex.io/ko/labs/linux-chronowarriors-variable-adventures-271278)                      | 환경 변수          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-chronowarriors-variable-adventures-271278)            |
+|    09 | [리눅스 논리로 떠나는 보물찾기](https://labex.io/ko/labs/linux-treasure-quest-with-linux-logic-271324)                     | 조건부 분기         | 중급    | [도전 시작](https://labex.io/ko/labs/linux-treasure-quest-with-linux-logic-271324)               |
+|    10 | [사막 부족 파일 마이그레이션](https://labex.io/ko/labs/linux-desert-tribe-file-migration-271336)                          | 파일 이동 및 이름 바꾸기 | 중급    | [도전 시작](https://labex.io/ko/labs/linux-desert-tribe-file-migration-271336)                   |
+|    11 | [심해 데이터 포맷팅](https://labex.io/ko/labs/linux-deep-sea-data-formatting-271360)                                  | 구조화된 출력        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-deep-sea-data-formatting-271360)                      |
+|    12 | [비듀트파다의 해방: 리눅스 입력 마스터](https://labex.io/ko/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)      | 표준 스트림         | 중급    | [도전 시작](https://labex.io/ko/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)     |
+|    13 | [디지털 정글 탐험](https://labex.io/ko/labs/linux-digital-jungle-quest-271370)                                       | 파일 제거          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-digital-jungle-quest-271370)                          |
+|    14 | [C 파일에서 임의의 줄 삭제](https://labex.io/ko/labs/shell-random-line-deletion-in-c-files-18872)                       | 텍스트 스트림 편집     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-random-line-deletion-in-c-files-18872)                |
+|    15 | [Linux 스크립팅 모험](https://labex.io/ko/labs/linux-linux-scripting-adventure-271386)                              | 라이브러리 스크립트     | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-scripting-adventure-271386)                     |
+|    16 | [해적 보물 리눅스 퀘스트](https://labex.io/ko/labs/linux-pirate-treasure-linux-quest-271394)                            | 파일 보기          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-pirate-treasure-linux-quest-271394)                   |
+|    17 | [스노우 퀸의 리눅스 테스트 퀘스트](https://labex.io/ko/labs/linux-snow-queens-linux-testing-quest-271402)                   | 테스트 표현식        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-snow-queens-linux-testing-quest-271402)               |
+|    18 | [가상 프로세스 동기화 마스터하기](https://labex.io/ko/labs/linux-virtual-process-synchronization-mastery-271432)            | 백그라운드 작업       | 중급    | [도전 시작](https://labex.io/ko/labs/linux-virtual-process-synchronization-mastery-271432)       |
+|    19 | [턱스빌의 리눅스 명령어 반복 실행](https://labex.io/ko/labs/linux-linux-command-repeating-in-tuxville-271434)               | 리소스 모니터링       | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-command-repeating-in-tuxville-271434)           |
+|    20 | [데이터 분석에서의 와일드카드 숙달](https://labex.io/ko/labs/linux-wildcard-mastery-in-data-analysis-271446)                 | 글로브 패턴         | 중급    | [도전 시작](https://labex.io/ko/labs/linux-wildcard-mastery-in-data-analysis-271446)             |
+|    21 | [정글 탐험: 고대 로그의 발견](https://labex.io/ko/labs/docker-jungle-expedition-uncovering-ancient-logs-271472)          | 컨테이너 로그        | 중급    | [도전 시작](https://labex.io/ko/labs/docker-jungle-expedition-uncovering-ancient-logs-271472)    |
+|    22 | [도커 컨테이너 식별하기](https://labex.io/ko/labs/docker-docker-container-identification-271474)                        | Docker 시스템 상태  | 중급    | [도전 시작](https://labex.io/ko/labs/docker-docker-container-identification-271474)              |
+|    23 | [성간 컨테이너 탐사](https://labex.io/ko/labs/docker-interstellar-container-exploration-271482)                       | Docker 시스템 상태  | 중급    | [도전 시작](https://labex.io/ko/labs/docker-interstellar-container-exploration-271482)           |
+|    24 | [도커 유니버스 항해사](https://labex.io/ko/labs/docker-docker-universe-navigator-271506)                               | 컨테이너 프로세스      | 중급    | [도전 시작](https://labex.io/ko/labs/docker-docker-universe-navigator-271506)                    |
+|    25 | [Hadoop 과 함께하는 마법의 숲 탐험](https://labex.io/ko/labs/hadoop-enchanted-forest-exploration-with-hadoop-272049)     | 디렉토리 목록        | 중급    | [도전 시작](https://labex.io/ko/labs/hadoop-enchanted-forest-exploration-with-hadoop-272049)     |
+|    26 | [백업 스크립트의 이식성 확보하기](https://labex.io/ko/labs/make-a-backup-script-portable-705298)                            | 이식성            | 초급    | [도전 시작](https://labex.io/ko/labs/make-a-backup-script-portable-705298)                       |
+|    27 | [Bash 명령어를 사용하여 파일 라인 출력하기](https://labex.io/ko/labs/shell-print-file-lines-using-bash-commands-18301)        | 스크립트 인수        | 초급    | [도전 시작](https://labex.io/ko/labs/shell-print-file-lines-using-bash-commands-18301)           |
+|    28 | [파일 관련 특수 작업](https://labex.io/ko/labs/linux-special-operations-with-files-8431)                              | 출력 리디렉션        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-special-operations-with-files-8431)                   |
+|    29 | [마운트된 파일 시스템 사용량 확인](https://labex.io/ko/labs/shell-check-mounted-file-system-usage-18275)                    | 파일 시스템 마운트     | 중급    | [도전 시작](https://labex.io/ko/labs/shell-check-mounted-file-system-usage-18275)                |
+|    30 | [시스템 구성에서 사용자 검색](https://labex.io/ko/labs/shell-search-user-in-system-configuration-18277)                   | 사용자 계정         | 초급    | [도전 시작](https://labex.io/ko/labs/shell-search-user-in-system-configuration-18277)            |
+|    31 | [ID 범위 내 시스템 사용자 수 계산](https://labex.io/ko/labs/shell-count-system-users-within-id-range-18279)               | 사용자 계정         | 초급    | [도전 시작](https://labex.io/ko/labs/shell-count-system-users-within-id-range-18279)             |
+|    32 | [시스템 정보 표시 스크립트](https://labex.io/ko/labs/linux-system-information-displaying-script-18281)                   | 시스템 식별         | 초급    | [도전 시작](https://labex.io/ko/labs/linux-system-information-displaying-script-18281)           |
+|    33 | [쉘 스크립트로 문자열 변환하기](https://labex.io/ko/labs/shell-convert-strings-with-shell-script-18283)                    | 텍스트 스트림 편집     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-convert-strings-with-shell-script-18283)              |
+|    34 | [명령줄 정렬을 위한 버블 정렬](https://labex.io/ko/labs/shell-bubble-sort-command-line-sorting-18285)                     | 배열             | 중급    | [도전 시작](https://labex.io/ko/labs/shell-bubble-sort-command-line-sorting-18285)               |
+|    35 | [시간에 따라 사용자에게 인사하기](https://labex.io/ko/labs/shell-greet-user-based-on-time-18287)                            | 명령 대체          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-greet-user-based-on-time-18287)                       |
+|    36 | [직각삼각형 패턴](https://labex.io/ko/labs/shell-right-angle-triangle-pattern-18289)                                 | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-right-angle-triangle-pattern-18289)                   |
+|    37 | [쉘 스크립트를 사용한 숫자 뒤집기](https://labex.io/ko/labs/shell-reverse-number-using-shell-script-18291)                  | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-reverse-number-using-shell-script-18291)              |
+|    38 | [Bash 스크립트의 재귀 함수](https://labex.io/ko/labs/shell-recursive-function-in-bash-scripting-18293)                 | Shell 함수       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-recursive-function-in-bash-scripting-18293)           |
+|    39 | [셸 명령어를 이용한 랜덤 비밀번호 생성기](https://labex.io/ko/labs/linux-random-password-generator-using-shell-commands-18299) | 파일 보기          | 초급    | [도전 시작](https://labex.io/ko/labs/linux-random-password-generator-using-shell-commands-18299) |
+|    40 | [리눅스 로그 백업하기](https://labex.io/ko/labs/linux-backup-logs-in-linux-1654)                                       | 디렉토리 생성        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-backup-logs-in-linux-1654)                            |
+|    41 | [정삼각형 패턴 출력하기](https://labex.io/ko/labs/shell-print-equilateral-triangle-pattern-18303)                       | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-print-equilateral-triangle-pattern-18303)             |
+|    42 | [PATH 디렉터리 내 실행 파일 개수 세기](https://labex.io/ko/labs/shell-count-executable-files-in-path-directories-18305)    | 환경 변수          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-count-executable-files-in-path-directories-18305)     |
+|    43 | [길이의 차이](https://labex.io/ko/labs/shell-long-and-short-18307)                                                 | 스크립트 실행        | 초급    | [도전 시작](https://labex.io/ko/labs/shell-long-and-short-18307)                                 |
+|    44 | [파일 시스템 여유 공간 사용량 표시](https://labex.io/ko/labs/shell-display-filesystem-free-space-utilization-18309)         | 디스크 사용량 분석     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-display-filesystem-free-space-utilization-18309)      |
+|    45 | [파일 정보 처리를 위한 Bash 스크립트](https://labex.io/ko/labs/shell-bash-script-for-file-information-18311)               | 스크립트 실행        | 초급    | [도전 시작](https://labex.io/ko/labs/shell-bash-script-for-file-information-18311)               |
+|    46 | [쉘에서 피보나치 수열 생성하기](https://labex.io/ko/labs/shell-generate-fibonacci-sequence-in-shell-18313)                 | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-generate-fibonacci-sequence-in-shell-18313)           |
+|    47 | [디렉터리 내용을 나열하는 셸 스크립트 작성](https://labex.io/ko/labs/shell-write-shell-script-to-list-directory-contents-18315) | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-write-shell-script-to-list-directory-contents-18315)  |
+|    48 | [명령줄 인수 비교 스크립트](https://labex.io/ko/labs/shell-command-line-argument-comparison-script-18317)                | 조건부 분기         | 초급    | [도전 시작](https://labex.io/ko/labs/shell-command-line-argument-comparison-script-18317)        |
+|    49 | [두 숫자 더하기](https://labex.io/ko/labs/shell-adding-two-numbers-18319)                                           | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-adding-two-numbers-18319)                             |
+|    50 | [명령줄 계산기 스크립트 생성](https://labex.io/ko/labs/shell-create-a-command-line-calculator-script-18863)               | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-create-a-command-line-calculator-script-18863)        |
+|    51 | [파일 시스템 여유 공간 사용량 표시](https://labex.io/ko/labs/shell-display-filesystem-free-space-utilization-18309)         | 디스크 사용량 분석     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-display-filesystem-free-space-utilization-18309)      |
+|    52 | [길이의 차이](https://labex.io/ko/labs/shell-long-and-short-18307)                                                 | 스크립트 실행        | 초급    | [도전 시작](https://labex.io/ko/labs/shell-long-and-short-18307)                                 |
+|    53 | [PATH 디렉터리 내 실행 파일 개수 세기](https://labex.io/ko/labs/shell-count-executable-files-in-path-directories-18305)    | 환경 변수          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-count-executable-files-in-path-directories-18305)     |
+|    54 | [정삼각형 패턴 출력하기](https://labex.io/ko/labs/shell-print-equilateral-triangle-pattern-18303)                       | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-print-equilateral-triangle-pattern-18303)             |
+|    55 | [Bash 명령어를 사용하여 파일 라인 출력하기](https://labex.io/ko/labs/shell-print-file-lines-using-bash-commands-18301)        | 스크립트 인수        | 초급    | [도전 시작](https://labex.io/ko/labs/shell-print-file-lines-using-bash-commands-18301)           |
+|    56 | [셸 명령어를 이용한 랜덤 비밀번호 생성기](https://labex.io/ko/labs/linux-random-password-generator-using-shell-commands-18299) | 파일 보기          | 초급    | [도전 시작](https://labex.io/ko/labs/linux-random-password-generator-using-shell-commands-18299) |
+|    57 | [두 숫자 더하기](https://labex.io/ko/labs/shell-adding-two-numbers-18319)                                           | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-adding-two-numbers-18319)                             |
+|    58 | [쉘 스크립트를 사용한 숫자 뒤집기](https://labex.io/ko/labs/shell-reverse-number-using-shell-script-18291)                  | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-reverse-number-using-shell-script-18291)              |
+|    59 | [직각삼각형 패턴](https://labex.io/ko/labs/shell-right-angle-triangle-pattern-18289)                                 | Shell 루프       | 초급    | [도전 시작](https://labex.io/ko/labs/shell-right-angle-triangle-pattern-18289)                   |
+|    60 | [시간에 따라 사용자에게 인사하기](https://labex.io/ko/labs/shell-greet-user-based-on-time-18287)                            | 명령 대체          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-greet-user-based-on-time-18287)                       |
+|    61 | [명령줄 정렬을 위한 버블 정렬](https://labex.io/ko/labs/shell-bubble-sort-command-line-sorting-18285)                     | 배열             | 중급    | [도전 시작](https://labex.io/ko/labs/shell-bubble-sort-command-line-sorting-18285)               |
+|    62 | [쉘 스크립트로 문자열 변환하기](https://labex.io/ko/labs/shell-convert-strings-with-shell-script-18283)                    | 텍스트 스트림 편집     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-convert-strings-with-shell-script-18283)              |
+|    63 | [시스템 정보 표시 스크립트](https://labex.io/ko/labs/linux-system-information-displaying-script-18281)                   | 시스템 식별         | 초급    | [도전 시작](https://labex.io/ko/labs/linux-system-information-displaying-script-18281)           |
+|    64 | [ID 범위 내 시스템 사용자 수 계산](https://labex.io/ko/labs/shell-count-system-users-within-id-range-18279)               | 사용자 계정         | 초급    | [도전 시작](https://labex.io/ko/labs/shell-count-system-users-within-id-range-18279)             |
+|    65 | [시스템 구성에서 사용자 검색](https://labex.io/ko/labs/shell-search-user-in-system-configuration-18277)                   | 사용자 계정         | 초급    | [도전 시작](https://labex.io/ko/labs/shell-search-user-in-system-configuration-18277)            |
+|    66 | [마운트된 파일 시스템 사용량 확인](https://labex.io/ko/labs/shell-check-mounted-file-system-usage-18275)                    | 파일 시스템 마운트     | 중급    | [도전 시작](https://labex.io/ko/labs/shell-check-mounted-file-system-usage-18275)                |
+|    67 | [파일 관련 특수 작업](https://labex.io/ko/labs/linux-special-operations-with-files-8431)                              | 출력 리디렉션        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-special-operations-with-files-8431)                   |
+|    68 | [리눅스 논리로 떠나는 보물찾기](https://labex.io/ko/labs/linux-treasure-quest-with-linux-logic-271324)                     | 조건부 분기         | 중급    | [도전 시작](https://labex.io/ko/labs/linux-treasure-quest-with-linux-logic-271324)               |
+|    69 | [턱스빌의 리눅스 명령어 반복 실행](https://labex.io/ko/labs/linux-linux-command-repeating-in-tuxville-271434)               | 리소스 모니터링       | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-command-repeating-in-tuxville-271434)           |
+|    70 | [가상 프로세스 동기화 마스터하기](https://labex.io/ko/labs/linux-virtual-process-synchronization-mastery-271432)            | 백그라운드 작업       | 중급    | [도전 시작](https://labex.io/ko/labs/linux-virtual-process-synchronization-mastery-271432)       |
+|    71 | [스노우 퀸의 리눅스 테스트 퀘스트](https://labex.io/ko/labs/linux-snow-queens-linux-testing-quest-271402)                   | 테스트 표현식        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-snow-queens-linux-testing-quest-271402)               |
+|    72 | [해적 보물 리눅스 퀘스트](https://labex.io/ko/labs/linux-pirate-treasure-linux-quest-271394)                            | 파일 보기          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-pirate-treasure-linux-quest-271394)                   |
+|    73 | [Linux 스크립팅 모험](https://labex.io/ko/labs/linux-linux-scripting-adventure-271386)                              | 라이브러리 스크립트     | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-scripting-adventure-271386)                     |
+|    74 | [사막 레이싱 피트 스톱 타이밍](https://labex.io/ko/labs/linux-desert-racing-pit-stop-timing-271382)                       | 스크립트 실행        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-desert-racing-pit-stop-timing-271382)                 |
+|    75 | [디지털 정글 탐험](https://labex.io/ko/labs/linux-digital-jungle-quest-271370)                                       | 파일 제거          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-digital-jungle-quest-271370)                          |
+|    76 | [비듀트파다의 해방: 리눅스 입력 마스터](https://labex.io/ko/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)      | 표준 스트림         | 중급    | [도전 시작](https://labex.io/ko/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)     |
+|    77 | [심해 데이터 포맷팅](https://labex.io/ko/labs/linux-deep-sea-data-formatting-271360)                                  | 구조화된 출력        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-deep-sea-data-formatting-271360)                      |
+|    78 | [사막 부족 파일 마이그레이션](https://labex.io/ko/labs/linux-desert-tribe-file-migration-271336)                          | 파일 이동 및 이름 바꾸기 | 중급    | [도전 시작](https://labex.io/ko/labs/linux-desert-tribe-file-migration-271336)                   |
+|    79 | [리눅스 로그 백업하기](https://labex.io/ko/labs/linux-backup-logs-in-linux-1654)                                       | 디렉토리 생성        | 중급    | [도전 시작](https://labex.io/ko/labs/linux-backup-logs-in-linux-1654)                            |
+|    80 | [크로노워리어 변수 모험](https://labex.io/ko/labs/linux-chronowarriors-variable-adventures-271278)                      | 환경 변수          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-chronowarriors-variable-adventures-271278)            |
+|    81 | [가상 현실 셸 탐험](https://labex.io/ko/labs/linux-virtual-reality-shell-exploration-271276)                         | 종료 상태          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-virtual-reality-shell-exploration-271276)             |
+|    82 | [잠수정 리눅스 환경 관리](https://labex.io/ko/labs/linux-submersible-linux-environment-management-271274)               | 환경 변수          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-submersible-linux-environment-management-271274)      |
+|    83 | [해양 변수 발견](https://labex.io/ko/labs/linux-oceanic-variable-discovery-271264)                                  | 변수 할당          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-oceanic-variable-discovery-271264)                    |
+|    84 | [리눅스 텍스트 열 정렬 기술 대결](https://labex.io/ko/labs/linux-linux-text-columnizing-tech-showdown-271248)              | 텍스트 필드 추출      | 중급    | [도전 시작](https://labex.io/ko/labs/linux-linux-text-columnizing-tech-showdown-271248)          |
+|    85 | [지하 산술 어드벤처](https://labex.io/ko/labs/linux-underground-arithmetic-adventure-271228)                          | 산술 확장          | 중급    | [도전 시작](https://labex.io/ko/labs/linux-underground-arithmetic-adventure-271228)              |
+|    86 | [파일 소유권 변경하기](https://labex.io/ko/labs/shell-change-file-ownership-270254)                                    | 높은 권한          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-change-file-ownership-270254)                         |
+|    87 | [C 파일에서 임의의 줄 삭제](https://labex.io/ko/labs/shell-random-line-deletion-in-c-files-18872)                       | 텍스트 스트림 편집     | 초급    | [도전 시작](https://labex.io/ko/labs/shell-random-line-deletion-in-c-files-18872)                |
+|    88 | [쉘 스크립트에서 문자열 길이 결정하기](https://labex.io/ko/labs/shell-determine-string-lengths-in-shell-script-18866)         | 배열             | 초급    | [도전 시작](https://labex.io/ko/labs/shell-determine-string-lengths-in-shell-script-18866)       |
+|    89 | [명령줄 계산기 스크립트 생성](https://labex.io/ko/labs/shell-create-a-command-line-calculator-script-18863)               | 산술 확장          | 초급    | [도전 시작](https://labex.io/ko/labs/shell-create-a-command-line-calculator-script-18863)        |
 
-
-## 연습
-
-|   인덱스 | 이름                                     | 난이도   | 연습    |
-|----------|------------------------------------------|----------|---------|
-|       01 | 🎯 🆓 Bash Hello World Program           | 초급     | 곧 출시 |
-|       02 | 🎯 🆓 Bash Scripting Comments Usage      | 초급     | 곧 출시 |
-|       03 | 🎯 🆓 Rectangle Area Calculator Script   | 초급     | 곧 출시 |
-|       04 | 🎯 🆓 Using While Loop in Bash           | 초급     | 곧 출시 |
-|       05 | 🎯 🆓 Bash Script Using For Loop         | 초급     | 곧 출시 |
-|       06 | 🎯 🆓 Capture User Input Script          | 초급     | 곧 출시 |
-|       07 | 🎯 🆓 Number Digit Checker               | 초급     | 곧 출시 |
-|       08 | 🎯 🆓 Username and Password Validation   | 초급     | 곧 출시 |
-|       09 | 🎯 🆓 Bash Script with OR Logic          | 초급     | 곧 출시 |
-|       10 | 🎯 🆓 Bash Script Lucky Number Checker   | 초급     | 곧 출시 |
-|       11 | 🎯 🆓 Bash Script Command Line Arguments | 초급     | 곧 출시 |
-|       12 | 🎯 🆓 Naming Command Line Arguments      | 초급     | 곧 출시 |
-|       13 | 🎯 🆓 Substring Extraction in Bash       | 초급     | 곧 출시 |
-|       14 | 🎯 🆓 Add Two Numbers                    | 초급     | 곧 출시 |
-|       15 | 🎯 🆓 Creating Bash Function             | 초급     | 곧 출시 |
-|       16 | 🎯 🆓 Calculate Rectangle Area Function  | 초급     | 곧 출시 |
-|       17 | 🎯 🆓 Passing String Value in Bash       | 초급     | 곧 출시 |
-|       18 | 🎯 🆓 Create Directory with Bash Script  | 초급     | 곧 출시 |
-|       19 | 🎯 🆓 Check Directory Existence Script   | 중급     | 곧 출시 |
-|       20 | 🎯 🆓 Read File Line by Line             | 초급     | 곧 출시 |
-|       21 | 🎯 🆓 Deleting Files with Bash           | 초급     | 곧 출시 |
-|       22 | 🎯 🆓 Append Content to File             | 초급     | 곧 출시 |
-|       23 | 🎯 🆓 Check File Existence               | 초급     | 곧 출시 |
-|       24 | 🎯 🆓 Parse Current Date and Time        | 초급     | 곧 출시 |
-|       25 | 🎯 🆓 Using Wait Command in Bash         | 초급     | 곧 출시 |
-|       26 | 🎯 🆓 Pausing Command Syntax             | 초급     | 곧 출시 |
-
-## LabEx 소개
-
-[LabEx](https://labex.io) 는 코딩과 기술에 전념하는 대화형 실습 학습 플랫폼입니다. 실험실, AI 지원 및 가상 머신을 결합하여 비디오 없는 실용적인 학습 경험을 제공합니다. 비디오 없는 독점적인 실습 실험실로 엄격한 '실습을 통한 학습' 접근 방식, 브라우저 내 대화형 온라인 환경에서 자동화된 단계별 확인, 스킬 트리 기반 시스템으로 구조화된 콘텐츠 구성, 30 개의 스킬 트리와 6,000 개 이상의 실험실을 포함하는 성장하는 학습 리소스로, [LabEx](https://labex.io) 는 종합적인 실습 교육을 제공합니다. 플랫폼에는 최신 AI 모델을 기반으로 구축된 학습 도우미 Labby 가 포함되어 대화형 학습 경험을 제공합니다.
+[모든 도전 보기](https://labex.io/ko/learn/shell).
 
 ## 더 보기
 
-- 🔗 [Shell 프로그래밍 코스](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Shell 프로그래밍 프로젝트](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Shell 무료 튜토리얼](https://github.com/labex-labs/shell-free-tutorials)
+- 🔗 [LabEx 에서 Shell 더 알아보기](https://labex.io/ko/learn/shell)
+- 🔗 [더 많은 프로그래밍 프로젝트 탐색](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [프로그래밍 코스 탐색](https://github.com/labex-labs/awesome-programming-courses)
 
