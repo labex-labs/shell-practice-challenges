@@ -1,56 +1,114 @@
-# シェル実践チャレンジ
+# Shell 実践チャレンジ
 
 ## 言語
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![シェル実践チャレンジ](https://cover-creator.labex.io/shell-practice-challenges.png?lang=ja)](https://labex.io/ja/courses/shell-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/xd9XxfpEzs7d.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ja/courses/shell-practice-challenges)
+この包括的な学習パスで、システム管理と自動化のためのシェルスクリプトを習得しましょう。初心者向けに設計されたこのロードマップは、コマンドラインインターフェースとシェルプログラミングを体系的にマスターする方法を提供します。含まれるシェルコースでは、インタラクティブなコマンドライン環境内で実践的で非動画形式の指導と演習が提供され、Unix/Linux シェルとスクリプト言語における実用的なスキルを習得するのに役立ちます。
 
-このコースにはシェルに関する多数のチャレンジが含まれています。各チャレンジは詳細な説明と解決策を備えた小さなシェルプロジェクトです。これらのチャレンジを解くことで、シェルスキルを練習し、問題解決能力を向上させ、クリーンで効率的なコードの書き方を学ぶことができます。
+LabEx の最大 89 個の Shell 集中チャレンジを一覧できます。各チャレンジはインタラクティブ環境で開き、特定のスキルを練習できます。
 
-![Shell](https://img.shields.io/badge/Shell-whitesmoke?style=for-the-badge&logo=shell)
+|   インデックス | 名前                                                                                                                | スキル           | 難易度   | 練習                                                                                              |
+|----------|-------------------------------------------------------------------------------------------------------------------|---------------|-------|-------------------------------------------------------------------------------------------------|
+|       01 | [砂漠レースのピットストップタイミング](https://labex.io/ja/labs/linux-desert-racing-pit-stop-timing-271382)                         | スクリプトの実行      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-desert-racing-pit-stop-timing-271382)                 |
+|       02 | [ファイル所有権の変更](https://labex.io/ja/labs/shell-change-file-ownership-270254)                                         | 昇格された特権       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-change-file-ownership-270254)                         |
+|       03 | [地下算术探险](https://labex.io/ja/labs/linux-underground-arithmetic-adventure-271228)                                  | 算術拡張          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-underground-arithmetic-adventure-271228)              |
+|       04 | [Linux テキスト列整形技術対決](https://labex.io/ja/labs/linux-linux-text-columnizing-tech-showdown-271248)                   | テキストフィールドの抽出  | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-text-columnizing-tech-showdown-271248)          |
+|       05 | [海洋変数の発見](https://labex.io/ja/labs/linux-oceanic-variable-discovery-271264)                                       | 変数の割り当て       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-oceanic-variable-discovery-271264)                    |
+|       06 | [潜水艇 Linux 環境の管理](https://labex.io/ja/labs/linux-submersible-linux-environment-management-271274)                 | 環境変数          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-submersible-linux-environment-management-271274)      |
+|       07 | [仮想現実シェル探索](https://labex.io/ja/labs/linux-virtual-reality-shell-exploration-271276)                              | 終了ステータス       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-virtual-reality-shell-exploration-271276)             |
+|       08 | [クロノウォリアーの変数アドベンチャー](https://labex.io/ja/labs/linux-chronowarriors-variable-adventures-271278)                    | 環境変数          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-chronowarriors-variable-adventures-271278)            |
+|       09 | [Linux ロジックによる宝探し](https://labex.io/ja/labs/linux-treasure-quest-with-linux-logic-271324)                         | 条件分岐          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-treasure-quest-with-linux-logic-271324)               |
+|       10 | [デザート・トライブのファイル移行](https://labex.io/ja/labs/linux-desert-tribe-file-migration-271336)                             | ファイルの移動と名前変更  | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-desert-tribe-file-migration-271336)                   |
+|       11 | [深海データフォーマット](https://labex.io/ja/labs/linux-deep-sea-data-formatting-271360)                                     | 構造化された出力      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-deep-sea-data-formatting-271360)                      |
+|       12 | [Vidyutpada の解放：Linux 入力操作の極意](https://labex.io/ja/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)   | 標準ストリーム       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)     |
+|       13 | [デジタルジャングル・クエスト](https://labex.io/ja/labs/linux-digital-jungle-quest-271370)                                      | ファイルの削除       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-digital-jungle-quest-271370)                          |
+|       14 | [C ファイルにおけるランダムな行の削除](https://labex.io/ja/labs/shell-random-line-deletion-in-c-files-18872)                       | テキストストリーム編集   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-random-line-deletion-in-c-files-18872)                |
+|       15 | [Linux スクリプティングの冒険](https://labex.io/ja/labs/linux-linux-scripting-adventure-271386)                              | ライブラリスクリプト    | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-scripting-adventure-271386)                     |
+|       16 | [海賊の宝探し Linux クエスト](https://labex.io/ja/labs/linux-pirate-treasure-linux-quest-271394)                            | ファイルの閲覧       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-pirate-treasure-linux-quest-271394)                   |
+|       17 | [スノー・クイーンの Linux テストの探求](https://labex.io/ja/labs/linux-snow-queens-linux-testing-quest-271402)                   | テスト式          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-snow-queens-linux-testing-quest-271402)               |
+|       18 | [仮想プロセス同期の習得](https://labex.io/ja/labs/linux-virtual-process-synchronization-mastery-271432)                      | バックグラウンドジョブ   | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-virtual-process-synchronization-mastery-271432)       |
+|       19 | [タックスビルの Linux コマンド繰り返し実行](https://labex.io/ja/labs/linux-linux-command-repeating-in-tuxville-271434)             | リソースの監視       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-command-repeating-in-tuxville-271434)           |
+|       20 | [ワイルドカードの習熟：データ分析](https://labex.io/ja/labs/linux-wildcard-mastery-in-data-analysis-271446)                       | グロブパターン       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-wildcard-mastery-in-data-analysis-271446)             |
+|       21 | [ジャングル遠征：古代のログの解明](https://labex.io/ja/labs/docker-jungle-expedition-uncovering-ancient-logs-271472)              | コンテナログ        | 中級    | [チャレンジを開始](https://labex.io/ja/labs/docker-jungle-expedition-uncovering-ancient-logs-271472)    |
+|       22 | [Docker コンテナの識別](https://labex.io/ja/labs/docker-docker-container-identification-271474)                          | Docker システム状態 | 中級    | [チャレンジを開始](https://labex.io/ja/labs/docker-docker-container-identification-271474)              |
+|       23 | [星間コンテナ探索](https://labex.io/ja/labs/docker-interstellar-container-exploration-271482)                             | Docker システム状態 | 中級    | [チャレンジを開始](https://labex.io/ja/labs/docker-interstellar-container-exploration-271482)           |
+|       24 | [Docker ユニバースナビゲーター](https://labex.io/ja/labs/docker-docker-universe-navigator-271506)                            | コンテナプロセス      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/docker-docker-universe-navigator-271506)                    |
+|       25 | [Hadoop による魅惑の森の探検](https://labex.io/ja/labs/hadoop-enchanted-forest-exploration-with-hadoop-272049)              | ディレクトリリスト     | 中級    | [チャレンジを開始](https://labex.io/ja/labs/hadoop-enchanted-forest-exploration-with-hadoop-272049)     |
+|       26 | [バックアップスクリプトのポータビリティ向上](https://labex.io/ja/labs/make-a-backup-script-portable-705298)                            | 移植性           | 初級    | [チャレンジを開始](https://labex.io/ja/labs/make-a-backup-script-portable-705298)                       |
+|       27 | [Bash コマンドを使ってファイルの行を表示する](https://labex.io/ja/labs/shell-print-file-lines-using-bash-commands-18301)             | スクリプトの引数      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-print-file-lines-using-bash-commands-18301)           |
+|       28 | [ファイルに関する特殊操作](https://labex.io/ja/labs/linux-special-operations-with-files-8431)                                 | 出力リダイレクト      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-special-operations-with-files-8431)                   |
+|       29 | [マウントされたファイルシステムの使用状況を確認する](https://labex.io/ja/labs/shell-check-mounted-file-system-usage-18275)                 | ファイルシステムのマウント | 中級    | [チャレンジを開始](https://labex.io/ja/labs/shell-check-mounted-file-system-usage-18275)                |
+|       30 | [システム設定におけるユーザー検索](https://labex.io/ja/labs/shell-search-user-in-system-configuration-18277)                      | ユーザーアカウント     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-search-user-in-system-configuration-18277)            |
+|       31 | [ID 範囲内のシステムユーザーをカウントする](https://labex.io/ja/labs/shell-count-system-users-within-id-range-18279)                 | ユーザーアカウント     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-count-system-users-within-id-range-18279)             |
+|       32 | [システム情報表示スクリプト](https://labex.io/ja/labs/linux-system-information-displaying-script-18281)                        | システムの識別       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/linux-system-information-displaying-script-18281)           |
+|       33 | [シェルスクリプトで文字列を変換する](https://labex.io/ja/labs/shell-convert-strings-with-shell-script-18283)                       | テキストストリーム編集   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-convert-strings-with-shell-script-18283)              |
+|       34 | [バブルソートによるコマンドラインソート](https://labex.io/ja/labs/shell-bubble-sort-command-line-sorting-18285)                      | 配列            | 中級    | [チャレンジを開始](https://labex.io/ja/labs/shell-bubble-sort-command-line-sorting-18285)               |
+|       35 | [時刻に基づいてユーザーに挨拶する](https://labex.io/ja/labs/shell-greet-user-based-on-time-18287)                                 | コマンド置換        | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-greet-user-based-on-time-18287)                       |
+|       36 | [直角三角形のパターン](https://labex.io/ja/labs/shell-right-angle-triangle-pattern-18289)                                   | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-right-angle-triangle-pattern-18289)                   |
+|       37 | [シェルスクリプトを使って数値を逆順にする](https://labex.io/ja/labs/shell-reverse-number-using-shell-script-18291)                    | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-reverse-number-using-shell-script-18291)              |
+|       38 | [Bashスクリプトにおける再帰関数](https://labex.io/ja/labs/shell-recursive-function-in-bash-scripting-18293)                    | Shell 関数      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-recursive-function-in-bash-scripting-18293)           |
+|       39 | [シェルコマンドを使ったランダムなパスワード生成器](https://labex.io/ja/labs/linux-random-password-generator-using-shell-commands-18299)   | ファイルの閲覧       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/linux-random-password-generator-using-shell-commands-18299) |
+|       40 | [Linux におけるログのバックアップ](https://labex.io/ja/labs/linux-backup-logs-in-linux-1654)                                   | ディレクトリの作成     | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-backup-logs-in-linux-1654)                            |
+|       41 | [正三角形パターンを印刷する](https://labex.io/ja/labs/shell-print-equilateral-triangle-pattern-18303)                          | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-print-equilateral-triangle-pattern-18303)             |
+|       42 | [PATH ディレクトリ内の実行可能ファイルをカウントする](https://labex.io/ja/labs/shell-count-executable-files-in-path-directories-18305)   | 環境変数          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-count-executable-files-in-path-directories-18305)     |
+|       43 | [長いものと短いもの](https://labex.io/ja/labs/shell-long-and-short-18307)                                                  | スクリプトの実行      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-long-and-short-18307)                                 |
+|       44 | [ファイルシステムの空き容量利用率を表示する](https://labex.io/ja/labs/shell-display-filesystem-free-space-utilization-18309)           | ディスク使用量の分析    | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-display-filesystem-free-space-utilization-18309)      |
+|       45 | [ファイル情報用の Bash スクリプト](https://labex.io/ja/labs/shell-bash-script-for-file-information-18311)                      | スクリプトの実行      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-bash-script-for-file-information-18311)               |
+|       46 | [シェルでフィボナッチ数列を生成する](https://labex.io/ja/labs/shell-generate-fibonacci-sequence-in-shell-18313)                    | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-generate-fibonacci-sequence-in-shell-18313)           |
+|       47 | [ディレクトリの内容を一覧表示するシェルスクリプトを書く](https://labex.io/ja/labs/shell-write-shell-script-to-list-directory-contents-18315) | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-write-shell-script-to-list-directory-contents-18315)  |
+|       48 | [コマンドライン引数比較スクリプト](https://labex.io/ja/labs/shell-command-line-argument-comparison-script-18317)                  | 条件分岐          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-command-line-argument-comparison-script-18317)        |
+|       49 | [2 つの数値の加算](https://labex.io/ja/labs/shell-adding-two-numbers-18319)                                              | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-adding-two-numbers-18319)                             |
+|       50 | [コマンドライン電卓スクリプトを作成する](https://labex.io/ja/labs/shell-create-a-command-line-calculator-script-18863)               | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-create-a-command-line-calculator-script-18863)        |
+|       51 | [ファイルシステムの空き容量利用率を表示する](https://labex.io/ja/labs/shell-display-filesystem-free-space-utilization-18309)           | ディスク使用量の分析    | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-display-filesystem-free-space-utilization-18309)      |
+|       52 | [長いものと短いもの](https://labex.io/ja/labs/shell-long-and-short-18307)                                                  | スクリプトの実行      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-long-and-short-18307)                                 |
+|       53 | [PATH ディレクトリ内の実行可能ファイルをカウントする](https://labex.io/ja/labs/shell-count-executable-files-in-path-directories-18305)   | 環境変数          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-count-executable-files-in-path-directories-18305)     |
+|       54 | [正三角形パターンを印刷する](https://labex.io/ja/labs/shell-print-equilateral-triangle-pattern-18303)                          | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-print-equilateral-triangle-pattern-18303)             |
+|       55 | [Bash コマンドを使ってファイルの行を表示する](https://labex.io/ja/labs/shell-print-file-lines-using-bash-commands-18301)             | スクリプトの引数      | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-print-file-lines-using-bash-commands-18301)           |
+|       56 | [シェルコマンドを使ったランダムなパスワード生成器](https://labex.io/ja/labs/linux-random-password-generator-using-shell-commands-18299)   | ファイルの閲覧       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/linux-random-password-generator-using-shell-commands-18299) |
+|       57 | [2 つの数値の加算](https://labex.io/ja/labs/shell-adding-two-numbers-18319)                                              | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-adding-two-numbers-18319)                             |
+|       58 | [シェルスクリプトを使って数値を逆順にする](https://labex.io/ja/labs/shell-reverse-number-using-shell-script-18291)                    | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-reverse-number-using-shell-script-18291)              |
+|       59 | [直角三角形のパターン](https://labex.io/ja/labs/shell-right-angle-triangle-pattern-18289)                                   | Shell ループ     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-right-angle-triangle-pattern-18289)                   |
+|       60 | [時刻に基づいてユーザーに挨拶する](https://labex.io/ja/labs/shell-greet-user-based-on-time-18287)                                 | コマンド置換        | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-greet-user-based-on-time-18287)                       |
+|       61 | [バブルソートによるコマンドラインソート](https://labex.io/ja/labs/shell-bubble-sort-command-line-sorting-18285)                      | 配列            | 中級    | [チャレンジを開始](https://labex.io/ja/labs/shell-bubble-sort-command-line-sorting-18285)               |
+|       62 | [シェルスクリプトで文字列を変換する](https://labex.io/ja/labs/shell-convert-strings-with-shell-script-18283)                       | テキストストリーム編集   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-convert-strings-with-shell-script-18283)              |
+|       63 | [システム情報表示スクリプト](https://labex.io/ja/labs/linux-system-information-displaying-script-18281)                        | システムの識別       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/linux-system-information-displaying-script-18281)           |
+|       64 | [ID 範囲内のシステムユーザーをカウントする](https://labex.io/ja/labs/shell-count-system-users-within-id-range-18279)                 | ユーザーアカウント     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-count-system-users-within-id-range-18279)             |
+|       65 | [システム設定におけるユーザー検索](https://labex.io/ja/labs/shell-search-user-in-system-configuration-18277)                      | ユーザーアカウント     | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-search-user-in-system-configuration-18277)            |
+|       66 | [マウントされたファイルシステムの使用状況を確認する](https://labex.io/ja/labs/shell-check-mounted-file-system-usage-18275)                 | ファイルシステムのマウント | 中級    | [チャレンジを開始](https://labex.io/ja/labs/shell-check-mounted-file-system-usage-18275)                |
+|       67 | [ファイルに関する特殊操作](https://labex.io/ja/labs/linux-special-operations-with-files-8431)                                 | 出力リダイレクト      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-special-operations-with-files-8431)                   |
+|       68 | [Linux ロジックによる宝探し](https://labex.io/ja/labs/linux-treasure-quest-with-linux-logic-271324)                         | 条件分岐          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-treasure-quest-with-linux-logic-271324)               |
+|       69 | [タックスビルの Linux コマンド繰り返し実行](https://labex.io/ja/labs/linux-linux-command-repeating-in-tuxville-271434)             | リソースの監視       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-command-repeating-in-tuxville-271434)           |
+|       70 | [仮想プロセス同期の習得](https://labex.io/ja/labs/linux-virtual-process-synchronization-mastery-271432)                      | バックグラウンドジョブ   | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-virtual-process-synchronization-mastery-271432)       |
+|       71 | [スノー・クイーンの Linux テストの探求](https://labex.io/ja/labs/linux-snow-queens-linux-testing-quest-271402)                   | テスト式          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-snow-queens-linux-testing-quest-271402)               |
+|       72 | [海賊の宝探し Linux クエスト](https://labex.io/ja/labs/linux-pirate-treasure-linux-quest-271394)                            | ファイルの閲覧       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-pirate-treasure-linux-quest-271394)                   |
+|       73 | [Linux スクリプティングの冒険](https://labex.io/ja/labs/linux-linux-scripting-adventure-271386)                              | ライブラリスクリプト    | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-scripting-adventure-271386)                     |
+|       74 | [砂漠レースのピットストップタイミング](https://labex.io/ja/labs/linux-desert-racing-pit-stop-timing-271382)                         | スクリプトの実行      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-desert-racing-pit-stop-timing-271382)                 |
+|       75 | [デジタルジャングル・クエスト](https://labex.io/ja/labs/linux-digital-jungle-quest-271370)                                      | ファイルの削除       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-digital-jungle-quest-271370)                          |
+|       76 | [Vidyutpada の解放：Linux 入力操作の極意](https://labex.io/ja/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)   | 標準ストリーム       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-unleashing-vidyutpada-linux-input-mastery-271366)     |
+|       77 | [深海データフォーマット](https://labex.io/ja/labs/linux-deep-sea-data-formatting-271360)                                     | 構造化された出力      | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-deep-sea-data-formatting-271360)                      |
+|       78 | [デザート・トライブのファイル移行](https://labex.io/ja/labs/linux-desert-tribe-file-migration-271336)                             | ファイルの移動と名前変更  | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-desert-tribe-file-migration-271336)                   |
+|       79 | [Linux におけるログのバックアップ](https://labex.io/ja/labs/linux-backup-logs-in-linux-1654)                                   | ディレクトリの作成     | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-backup-logs-in-linux-1654)                            |
+|       80 | [クロノウォリアーの変数アドベンチャー](https://labex.io/ja/labs/linux-chronowarriors-variable-adventures-271278)                    | 環境変数          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-chronowarriors-variable-adventures-271278)            |
+|       81 | [仮想現実シェル探索](https://labex.io/ja/labs/linux-virtual-reality-shell-exploration-271276)                              | 終了ステータス       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-virtual-reality-shell-exploration-271276)             |
+|       82 | [潜水艇 Linux 環境の管理](https://labex.io/ja/labs/linux-submersible-linux-environment-management-271274)                 | 環境変数          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-submersible-linux-environment-management-271274)      |
+|       83 | [海洋変数の発見](https://labex.io/ja/labs/linux-oceanic-variable-discovery-271264)                                       | 変数の割り当て       | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-oceanic-variable-discovery-271264)                    |
+|       84 | [Linux テキスト列整形技術対決](https://labex.io/ja/labs/linux-linux-text-columnizing-tech-showdown-271248)                   | テキストフィールドの抽出  | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-linux-text-columnizing-tech-showdown-271248)          |
+|       85 | [地下算术探险](https://labex.io/ja/labs/linux-underground-arithmetic-adventure-271228)                                  | 算術拡張          | 中級    | [チャレンジを開始](https://labex.io/ja/labs/linux-underground-arithmetic-adventure-271228)              |
+|       86 | [ファイル所有権の変更](https://labex.io/ja/labs/shell-change-file-ownership-270254)                                         | 昇格された特権       | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-change-file-ownership-270254)                         |
+|       87 | [C ファイルにおけるランダムな行の削除](https://labex.io/ja/labs/shell-random-line-deletion-in-c-files-18872)                       | テキストストリーム編集   | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-random-line-deletion-in-c-files-18872)                |
+|       88 | [シェルスクリプトで文字列の長さを決定する](https://labex.io/ja/labs/shell-determine-string-lengths-in-shell-script-18866)             | 配列            | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-determine-string-lengths-in-shell-script-18866)       |
+|       89 | [コマンドライン電卓スクリプトを作成する](https://labex.io/ja/labs/shell-create-a-command-line-calculator-script-18863)               | 算術拡張          | 初級    | [チャレンジを開始](https://labex.io/ja/labs/shell-create-a-command-line-calculator-script-18863)        |
 
-
-## 演習
-
-|   インデックス | 名前                                                  | 難易度   | 練習     |
-|----------------|-------------------------------------------------------|----------|----------|
-|             01 | 🎯 🆓 Bash の Hello World プログラム                  | 初級     | 近日公開 |
-|             02 | 🎯 🆓 Bash スクリプトのコメントの使い方               | 初級     | 近日公開 |
-|             03 | 🎯 🆓 長方形の面積計算スクリプト                      | 初級     | 近日公開 |
-|             04 | 🎯 🆓 Bash における while ループの使用                | 初級     | 近日公開 |
-|             05 | 🎯 🆓 for ループを使用した Bash スクリプト            | 初級     | 近日公開 |
-|             06 | 🎯 🆓 ユーザー入力をキャプチャするスクリプト          | 初級     | 近日公開 |
-|             07 | 🎯 🆓 数字桁数チェッカー                              | 初級     | 近日公開 |
-|             08 | 🎯 🆓 ユーザー名とパスワードの検証                    | 初級     | 近日公開 |
-|             09 | 🎯 🆓 OR 論理を備えた Bash スクリプト                 | 初級     | 近日公開 |
-|             10 | 🎯 🆓 Bash スクリプトによるラッキーナンバーチェッカー | 初級     | 近日公開 |
-|             11 | 🎯 🆓 Bash スクリプトのコマンドライン引数             | 初級     | 近日公開 |
-|             12 | 🎯 🆓 コマンドライン引数の命名                        | 初級     | 近日公開 |
-|             13 | 🎯 🆓 Bash における部分文字列の抽出                   | 初級     | 近日公開 |
-|             14 | 🎯 🆓 2 つの数を加算する                              | 初級     | 近日公開 |
-|             15 | 🎯 🆓 Bash 関数の作成                                 | 初級     | 近日公開 |
-|             16 | 🎯 🆓 長方形の面積を計算する関数                      | 初級     | 近日公開 |
-|             17 | 🎯 🆓 Bash における文字列値の渡し方                   | 初級     | 近日公開 |
-|             18 | 🎯 🆓 Bash スクリプトでディレクトリを作成する         | 初級     | 近日公開 |
-|             19 | 🎯 🆓 ディレクトリの存在を確認するスクリプト          | 中級     | 近日公開 |
-|             20 | 🎯 🆓 1 行ずつファイルを読み取る                      | 初級     | 近日公開 |
-|             21 | 🎯 🆓 Bash を使ったファイルの削除                     | 初級     | 近日公開 |
-|             22 | 🎯 🆓 ファイルにコンテンツを追加する                  | 初級     | 近日公開 |
-|             23 | 🎯 🆓 ファイルの存在を確認する                        | 初級     | 近日公開 |
-|             24 | 🎯 🆓 現在の日付と時刻を解析する                      | 初級     | 近日公開 |
-|             25 | 🎯 🆓 Bash における wait コマンドの使用               | 初級     | 近日公開 |
-|             26 | 🎯 🆓 コマンドの一時停止の構文                        | 初級     | 近日公開 |
-
-## LabEx について
-
-[LabEx](https://labex.io) は、コーディングとテクノロジーに特化したインタラクティブな実践学習プラットフォームです。ラボ、AI 支援、仮想マシンを組み合わせて、ビデオなしの実践的な学習体験を提供します。動画なしの独自の実践ラボによる厳格な「実践による学習」アプローチ、ブラウザ内のインタラクティブなオンライン環境で自動化されたステップバイステップのチェック機能、スキルツリーベースのシステムによる構造化されたコンテンツ組織、30 のスキルツリーと 6,000 以上のラボを含む成長し続ける学習リソースにより、[LabEx](https://labex.io) は包括的な実践教育を提供します。プラットフォームには、最新の AI モデルを基盤とした学習アシスタント Labby が含まれており、対話型学習体験を提供します。
+[すべてのチャレンジを見る](https://labex.io/ja/learn/shell).
 
 ## その他
 
-- 🔗 [Shell プログラミングコース](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Shell プログラミングプロジェクト](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Shell 無料チュートリアル](https://github.com/labex-labs/shell-free-tutorials)
+- 🔗 [LabEx で Shell について詳しく見る](https://labex.io/ja/learn/shell)
+- 🔗 [さらにプログラミングプロジェクトを見る](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [プログラミングコースを見る](https://github.com/labex-labs/awesome-programming-courses)
 
